@@ -15,6 +15,12 @@ The same image file with filled in solution
   <img src="images/sudoku_1_solved.jpg" width="300">
 </p>
 
+### Current State
+Images currently can not be rotated so only images with perfect rotation are processed.
+Only images with only one Sudoku and no other artifacts can be processed.
+The Sudoku does not have to be fullscreen as a single Sudoku can be detected and cropped.
+Each detected Sudoku is scaled to 500x500 pixels and stored like this.
+
 ### Contents
 
 #### sudoku_solver.py 
