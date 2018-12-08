@@ -11,6 +11,10 @@ Image file with unsolved Sudoku
 ### Output
 The same image file with filled in solution
 
+<p align="center">
+  <img src="images/sudoku_1_solved.jpg" width="300">
+</p>
+
 ### Contents
 
 #### sudoku_solver.py 
